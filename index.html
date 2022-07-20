@@ -13,30 +13,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
 
     <header>
       <div class="container header">
-        <a href="index.html" class="logo link"
+        <a href="index.html" class="logo"
           ><span class="logo__starttext">Web</span><span class="logo__endtext">Studio</span></a
         >
         <nav class="nav">
-          <ul class="nav__list list">
+          <ul class="nav__list">
             <li class="nav__item">
-              <a href="index.html" class="nav__link nav__link--current link">Studio</a>
+              <a href="index.html" class="nav__link nav__link--current">Studio</a>
             </li>
             <li class="nav__item">
-              <a href="portfolio.html" class="nav__link link">Portfolio</a>
+              <a href="portfolio.html" class="nav__link">Portfolio</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link link">Contacts</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
-            <a href="mailto:info@devstudio.com" class="contacts__mail link">
+            <a href="mailto:info@devstudio.com" class="contacts__mail">
               <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class="contacts__item">
-            <a href="tel:+380961111111" class="contacts__tel link">
+            <a href="tel:+380961111111" class="contacts__tel">
               <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/sprite.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
@@ -69,7 +69,7 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
-          <ul class="features list">
+          <ul class="features">
             <li class="features__item">
               <div class="features__thumb">
                 <svg class="features__icon">
@@ -127,21 +127,21 @@
       <section class="task section">
         <div class="container">
           <h2 class="task__title">What we do</h2>
-          <ul class="task__list list">
+          <ul class="task__list">
             <li class="task__item">
-              <a href="#" class="task__link link">
+              <a href="#" class="task__link">
                 <img src="./images/box1.jpg" alt="Creation of desktop applications" width="370" />
                 <p class="task__details">Desktop apps</p>
               </a>
             </li>
             <li class="task__item">
-              <a href="#" class="task__link link">
+              <a href="#" class="task__link">
                 <img src="./images/box2.jpg" alt="Creation of mobile apps" width="370" />
                 <p class="task__details">Mobile apps</p>
               </a>
             </li>
             <li class="task__item">
-              <a href="#" class="task__link link">
+              <a href="#" class="task__link">
                 <img src="./images/box3.jpg" alt="Design creation" width="370" />
                 <p class="task__details">Design solutions</p>
               </a>
@@ -154,13 +154,13 @@
       <section class="team section">
         <div class="container">
           <h2 class="team__title">Our team</h2>
-          <ul class="team__list list">
+          <ul class="team__list">
             <li class="team__item">
               <img src="./images/staff1.jpg" alt="Christopher Walker" width="270" />
               <div class="team__thumb">
                 <h3 class="team__member">Christopher Walker</h3>
                 <p class="team__job">Product Designer</p>
-                <ul class="social list">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -197,7 +197,7 @@
               <div class="team__thumb">
                 <h3 class="team__member">Kylie Evans</h3>
                 <p class="team__job">Frontend Developer</p>
-                <ul class="social list">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -234,7 +234,7 @@
               <div class="team__thumb">
                 <h3 class="team__member">Ryan Harris</h3>
                 <p class="team__job">Marketing</p>
-                <ul class="social list">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -271,7 +271,7 @@
               <div class="team__thumb">
                 <h3 class="team__member">Tyler Moore</h3>
                 <p class="team__job">UI Designer</p>
-                <ul class="social list">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -311,7 +311,7 @@
       <section class="clients section">
         <div class="container">
           <h2 class="clients__title">Regular customers</h2>
-          <ul class="clients__list list">
+          <ul class="clients__list">
             <li class="clients__item">
               <a href="#" class="clients__link"
                 ><svg class="clients__icon" width="106" height="60">
@@ -412,15 +412,15 @@
     <footer class="footer">
       <div class="footer__container container">
         <div>
-          <a href="index.html" class="logo link"
+          <a href="index.html" class="logo"
             ><span class="logo__starttext">Web</span
             ><span class="logo__endtext logo__endtext--footer">Studio</span></a
           >
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
-                  class="address__map link"
+                  class="address__map"
                   href="https://goo.gl/maps/3Qcf8j6f9ug4d55s7"
                   target="_blank"
                   rel="noreferrer noopener"
@@ -429,19 +429,17 @@
                 </a>
               </li>
               <li class="address__item">
-                <a class="address__mail link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="address__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a class="address__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address__tel" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-social-div">
           <h2 class="footer-social-div__title">Find us on</h2>
-          <ul class="footer-social list">
+          <ul class="footer-social">
             <li class="footer-social__item">
               <a href="#" class="footer-social__link">
                 <svg class="footer-social__icon" width="20" height="20">

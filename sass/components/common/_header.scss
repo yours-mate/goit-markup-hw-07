@@ -1,0 +1,9 @@
+header {
+    background-color: var(--another-accent-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
